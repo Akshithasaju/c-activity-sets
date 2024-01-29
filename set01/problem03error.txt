@@ -1,0 +1,1 @@
+gcc -g -o0 problem03.c -o probelm03.exe
