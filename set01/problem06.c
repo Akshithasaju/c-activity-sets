@@ -27,7 +27,7 @@ void output(int a, int b, int c, int largest)
 int main()
 {
     int a, b, c, largest; 
-    input(&a, &b, &c); 
+    input(&a,&b,&c);
     compare(a, b, c, &largest); 
     output(a, b, c, largest);
     return 0;
