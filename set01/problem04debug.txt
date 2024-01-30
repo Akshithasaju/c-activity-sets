@@ -1,4 +1,4 @@
-PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -o0 problem04.c -o problem04.exe   
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -o0 problem04.c -o problem04.exe
 PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem04.exe
 GNU gdb (GDB) 7.6.1
 Copyright (C) 2013 Free Software Foundation, Inc.
