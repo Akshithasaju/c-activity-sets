@@ -1,0 +1,29 @@
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git add .
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> git commit -m "test"
+[main 0468dbe] test
+ 3 files changed, 76 insertions(+)
+ create mode 100644 set01/problem07debug.txt
+ create mode 100644 set01/problem07error.txt
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -o0 problem08.c -o problem08.exe
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem08.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01\problem08.exe...done.
+(gdb) r
+Starting program: C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set01/.\problem08.exe
+[New Thread 22036.0x5398]
+[New Thread 22036.0xd24]
+Enter the number of elements: 2
+Enter 2 numbers: 3
+4
+The numbers entered are: 3 4
+The sum of these numbers is: 7
+[Inferior 1 (process 22036) exited normally]
+(gdb) quit
