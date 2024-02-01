@@ -1,0 +1,27 @@
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> git add .                                                                 
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> git commit -m "test"                                                      
+[main 1e4c1c1] test
+ 4 files changed, 100 insertions(+)
+ create mode 100644 set02/problem03debug.txt
+ create mode 100644 set02/problem03error.txt
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> gcc -g -o0 problem05.c -o problem05.exe                                   
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> gdb .\problem05.exe                                                       
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02\problem05.exe...done.
+(gdb) r
+Starting program: C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02/.\problem05.exe
+[New Thread 14148.0x1e6c]
+[New Thread 14148.0x48dc]
+Enter a number: 12
+Enter a number: 16
+The GCD of 12 and 16 is 4
+[Inferior 1 (process 14148) exited normally]
+(gdb) quit
