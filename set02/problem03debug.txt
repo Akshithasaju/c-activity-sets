@@ -1,0 +1,25 @@
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> git add .                                                                 
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> git commit -m "test"                                                      
+[main c123de4] test
+ 1 file changed, 1 insertion(+)
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> gcc -g -o0 problem03.c -o problem03.exe                                   
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> gdb .\problem03.exe                                                       
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02\problem03.exe...done.
+(gdb) r
+Starting program: C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02/.\problem03.exe
+[New Thread 19828.0x5ff4]
+[New Thread 19828.0x5b0c]
+Enter a number: 8
+The number is 8
+The number is composite
+[Inferior 1 (process 19828) exited normally]
+(gdb) quit
