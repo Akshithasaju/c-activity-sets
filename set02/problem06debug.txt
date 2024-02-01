@@ -1,0 +1,29 @@
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> git add .                                                                 
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> git commit -m "test"                                                      
+[main 1cfccde] test
+ 5 files changed, 62 insertions(+)
+ create mode 100644 set02/problem05debug.txt
+ create mode 100644 set02/problem05error.txt
+ create mode 100644 set02/problem06debug.txt
+ create mode 100644 set02/problem06error.txt
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> gcc -g -o0 problem06.c -o problem06.exe                                   
+PS C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02> gdb .\problem06.exe                                                       
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02\problem06.exe...done.
+(gdb) r
+Starting program: C:\Users\sajum\OneDrive\Desktop\c-activity-sets\c-activity-sets\set02/.\problem06.exe
+[New Thread 16052.0x27c4]
+[New Thread 16052.0x1d74]
+Enter a string: hello
+The original string is: hello
+The reversed string is: olleh
+[Inferior 1 (process 16052) exited normally]
+(gdb) quit
