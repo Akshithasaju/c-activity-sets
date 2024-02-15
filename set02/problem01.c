@@ -23,3 +23,8 @@ void output(float base, float height, float area)
 {
   printf("the area of triangle is %.2f square units\n",area);
 }
+
+
+
+
+
