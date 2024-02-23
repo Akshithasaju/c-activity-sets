@@ -34,7 +34,7 @@ void output(int n, int result)
   if (result) {
     printf("The number is composite\n");
   }
-  else {
+  else {  
     printf("The number is not composite\n");
   }
 }
